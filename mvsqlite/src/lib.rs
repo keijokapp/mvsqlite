@@ -7,6 +7,7 @@ pub mod sqlite_vfs;
 pub mod tempfile;
 mod util;
 pub mod vfs;
+pub mod mvfs;
 
 use std::{
     collections::HashMap,

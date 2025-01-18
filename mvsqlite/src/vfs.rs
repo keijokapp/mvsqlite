@@ -6,6 +6,7 @@ use crate::{
     tempfile::TempFile,
 };
 
+use super::mvfs;
 pub use mvfs::vfs::{PAGE_CACHE_SIZE, PREFETCH_DEPTH, WRITE_CHUNK_SIZE};
 
 pub struct MultiVersionVfs {
